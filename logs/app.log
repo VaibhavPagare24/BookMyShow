@@ -1,0 +1,66 @@
+2025-08-13 07:17:36 INFO  com.bookmyshow.utils.ConfigReader - Configuration properties loaded successfully
+2025-08-13 07:17:36 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentReports initialized successfully: test-output/ExtentReports/ExtendReport_2025-08-13_07-17-36.html
+2025-08-13 07:17:36 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentReports flushed successfully
+2025-08-13 07:20:39 INFO  com.bookmyshow.utils.ConfigReader - Configuration properties loaded successfully
+2025-08-13 07:20:39 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentReports initialized successfully: test-output/ExtentReports/ExtendReport_2025-08-13_07-20-39.html
+2025-08-13 07:20:39 INFO  com.bookmyshow.tests.BookMyShowTest - Test setup started
+2025-08-13 07:20:39 INFO  com.bookmyshow.base.DriverSetup - Initializing WebDriver for browser: chrome
+2025-08-13 07:20:50 INFO  com.bookmyshow.base.DriverSetup - WebDriver initialized successfully
+2025-08-13 07:20:50 INFO  com.bookmyshow.base.DriverSetup - Navigating to application URL: https://in.bookmyshow.com
+2025-08-13 07:20:54 INFO  com.bookmyshow.base.DriverSetup - Successfully navigated to application
+2025-08-13 07:20:54 INFO  com.bookmyshow.tests.BookMyShowTest - Test setup completed
+2025-08-13 07:20:54 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentTest created for: demo
+2025-08-13 07:20:54 INFO  com.bookmyshow.tests.BookMyShowTest - Starting test : Test to start
+2025-08-13 07:20:54 INFO  com.bookmyshow.utils.ScreenshotUtil - Screenshot saved: test-output/screenshots/demo_PASSED_2025-08-13_07-20-54.png
+2025-08-13 07:20:54 INFO  com.bookmyshow.listeners.ExtentReportListener - Screenshot added to report: C:/Users/2421386/Salenium/BookMyShow/bookmyshow-1/test-output/screenshots/demo_PASSED_2025-08-13_07-20-54.png
+2025-08-13 07:20:54 INFO  com.bookmyshow.listeners.ScreenshotListener - Screenshot captured for passed test: test-output/screenshots/demo_PASSED_2025-08-13_07-20-54.png
+2025-08-13 07:20:54 INFO  com.bookmyshow.listeners.ExtentReportListener - Test passed: demo
+2025-08-13 07:20:54 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentReports flushed successfully
+2025-08-13 14:01:07 INFO  com.bookmyshow.utils.ConfigReader - Configuration properties loaded successfully
+2025-08-13 14:01:07 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentReports initialized successfully: test-output/ExtentReports/ExtendReport_2025-08-13_14-01-07.html
+2025-08-13 14:01:08 INFO  com.bookmyshow.tests.BookMyShowTest - Test setup started
+2025-08-13 14:01:08 INFO  com.bookmyshow.base.DriverSetup - Initializing WebDriver for browser: chrome
+2025-08-13 14:01:18 INFO  com.bookmyshow.base.DriverSetup - WebDriver initialized successfully
+2025-08-13 14:01:18 INFO  com.bookmyshow.base.DriverSetup - Navigating to application URL: https://in.bookmyshow.com
+2025-08-13 14:01:23 INFO  com.bookmyshow.base.DriverSetup - Successfully navigated to application
+2025-08-13 14:01:23 INFO  com.bookmyshow.tests.BookMyShowTest - Test setup completed
+2025-08-13 14:01:23 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentTest created for: selectLocation
+2025-08-13 14:01:23 INFO  com.bookmyshow.utils.ScreenshotUtil - Screenshot saved: test-output/screenshots/selectLocation_PASSED_2025-08-13_14-01-23.png
+2025-08-13 14:01:23 INFO  com.bookmyshow.listeners.ExtentReportListener - Screenshot added to report: C:/Users/2421386/Salenium/BookMyShow/bookmyshow-1/test-output/screenshots/selectLocation_PASSED_2025-08-13_14-01-23.png
+2025-08-13 14:01:23 INFO  com.bookmyshow.listeners.ScreenshotListener - Screenshot captured for passed test: test-output/screenshots/selectLocation_PASSED_2025-08-13_14-01-23.png
+2025-08-13 14:01:23 INFO  com.bookmyshow.listeners.ExtentReportListener - Test passed: selectLocation
+2025-08-13 14:01:23 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentTest created for: getSportEvents
+2025-08-13 14:01:26 INFO  com.bookmyshow.utils.ScreenshotUtil - Screenshot saved: test-output/screenshots/getSportEvents_PASSED_2025-08-13_14-01-25.png
+2025-08-13 14:01:26 INFO  com.bookmyshow.listeners.ExtentReportListener - Screenshot added to report: C:/Users/2421386/Salenium/BookMyShow/bookmyshow-1/test-output/screenshots/getSportEvents_PASSED_2025-08-13_14-01-25.png
+2025-08-13 14:01:26 INFO  com.bookmyshow.listeners.ScreenshotListener - Screenshot captured for passed test: test-output/screenshots/getSportEvents_PASSED_2025-08-13_14-01-25.png
+2025-08-13 14:01:26 INFO  com.bookmyshow.listeners.ExtentReportListener - Test passed: getSportEvents
+2025-08-13 14:01:26 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentTest created for: movieLanguages
+2025-08-13 14:01:26 INFO  com.bookmyshow.utils.ScreenshotUtil - Screenshot saved: test-output/screenshots/movieLanguages_PASSED_2025-08-13_14-01-26.png
+2025-08-13 14:01:26 INFO  com.bookmyshow.listeners.ExtentReportListener - Screenshot added to report: C:/Users/2421386/Salenium/BookMyShow/bookmyshow-1/test-output/screenshots/movieLanguages_PASSED_2025-08-13_14-01-26.png
+2025-08-13 14:01:26 INFO  com.bookmyshow.listeners.ScreenshotListener - Screenshot captured for passed test: test-output/screenshots/movieLanguages_PASSED_2025-08-13_14-01-26.png
+2025-08-13 14:01:26 INFO  com.bookmyshow.listeners.ExtentReportListener - Test passed: movieLanguages
+2025-08-13 14:01:27 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentReports flushed successfully
+2025-08-13 14:24:05 INFO  com.bookmyshow.utils.ConfigReader - Configuration properties loaded successfully
+2025-08-13 14:24:05 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentReports initialized successfully: test-output/ExtentReports/ExtendReport_2025-08-13_14-24-05.html
+2025-08-13 14:24:05 INFO  com.bookmyshow.tests.BookMyShowTest - Test setup started
+2025-08-13 14:24:05 INFO  com.bookmyshow.base.DriverSetup - Initializing WebDriver for browser: chrome
+2025-08-13 14:24:18 INFO  com.bookmyshow.base.DriverSetup - WebDriver initialized successfully
+2025-08-13 14:24:18 INFO  com.bookmyshow.base.DriverSetup - Navigating to application URL: https://in.bookmyshow.com
+2025-08-13 14:24:24 INFO  com.bookmyshow.base.DriverSetup - Successfully navigated to application
+2025-08-13 14:24:24 INFO  com.bookmyshow.tests.BookMyShowTest - Test setup completed
+2025-08-13 14:24:24 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentTest created for: selectLocation
+2025-08-13 14:24:24 INFO  com.bookmyshow.utils.ScreenshotUtil - Screenshot saved: test-output/screenshots/selectLocation_PASSED_2025-08-13_14-24-24.png
+2025-08-13 14:24:24 INFO  com.bookmyshow.listeners.ExtentReportListener - Screenshot added to report: C:/Users/2421386/Salenium/BookMyShow/bookmyshow-1/test-output/screenshots/selectLocation_PASSED_2025-08-13_14-24-24.png
+2025-08-13 14:24:24 INFO  com.bookmyshow.listeners.ScreenshotListener - Screenshot captured for passed test: test-output/screenshots/selectLocation_PASSED_2025-08-13_14-24-24.png
+2025-08-13 14:24:24 INFO  com.bookmyshow.listeners.ExtentReportListener - Test passed: selectLocation
+2025-08-13 14:24:24 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentTest created for: getSportEvents
+2025-08-13 14:24:28 INFO  com.bookmyshow.utils.ScreenshotUtil - Screenshot saved: test-output/screenshots/getSportEvents_PASSED_2025-08-13_14-24-28.png
+2025-08-13 14:24:28 INFO  com.bookmyshow.listeners.ExtentReportListener - Screenshot added to report: C:/Users/2421386/Salenium/BookMyShow/bookmyshow-1/test-output/screenshots/getSportEvents_PASSED_2025-08-13_14-24-28.png
+2025-08-13 14:24:28 INFO  com.bookmyshow.listeners.ScreenshotListener - Screenshot captured for passed test: test-output/screenshots/getSportEvents_PASSED_2025-08-13_14-24-28.png
+2025-08-13 14:24:28 INFO  com.bookmyshow.listeners.ExtentReportListener - Test passed: getSportEvents
+2025-08-13 14:24:28 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentTest created for: movieLanguages
+2025-08-13 14:24:29 INFO  com.bookmyshow.utils.ScreenshotUtil - Screenshot saved: test-output/screenshots/movieLanguages_PASSED_2025-08-13_14-24-29.png
+2025-08-13 14:24:29 INFO  com.bookmyshow.listeners.ExtentReportListener - Screenshot added to report: C:/Users/2421386/Salenium/BookMyShow/bookmyshow-1/test-output/screenshots/movieLanguages_PASSED_2025-08-13_14-24-29.png
+2025-08-13 14:24:29 INFO  com.bookmyshow.listeners.ScreenshotListener - Screenshot captured for passed test: test-output/screenshots/movieLanguages_PASSED_2025-08-13_14-24-29.png
+2025-08-13 14:24:29 INFO  com.bookmyshow.listeners.ExtentReportListener - Test passed: movieLanguages
+2025-08-13 14:24:30 INFO  com.bookmyshow.listeners.ExtentReportListener - ExtentReports flushed successfully

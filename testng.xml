@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="BookMyShowSuite">
+    
+    <!-- Register the Screenshot Listener -->
+    <listeners>
+        <listener class-name="com.bookmyshow.listeners.ExtentReportListener"/>
+        <listener class-name="com.bookmyshow.listeners.ScreenshotListener"/>
+    </listeners>
+
+    <test name="BookMyShowTest">
+        <classes>
+            <!-- Your main test class -->
+            <class name="com.bookmyshow.tests.BookMyShowTest"/>
+        </classes>
+    </test>
+
+</suite>
+ 	
