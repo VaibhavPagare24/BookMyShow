@@ -24,7 +24,6 @@ public class BookMyShowTest extends DriverSetup {
 	private MoviesPage movies;
 	private SportsPage sports;
 	private EventsPage events;
-
 	// Utility instances
 	private BrowserHelpers helper; // Browser window/tab management
 	private String excelFile; // Path to test data Excel file
@@ -46,7 +45,6 @@ public class BookMyShowTest extends DriverSetup {
 		movies = new MoviesPage(driver);
 		sports = new SportsPage(driver);
 		events = new EventsPage(driver);
-
 		// Initialize utility instances
 		helper = new BrowserHelpers(driver);
 		excelFile = ConfigReader.getProperty("test.data.file"); // Get Excel file path from config
@@ -86,6 +84,7 @@ public class BookMyShowTest extends DriverSetup {
 		logger.info("Movie languages test completed successfully");
 	}
 
+	
 	@Test(priority = 4)
 	public void getEvents() {
 		events.clickEventTab();
@@ -93,10 +92,10 @@ public class BookMyShowTest extends DriverSetup {
 		events.selectPriceRance();
 		events.extractDetails();
 		logger.info("Events test completed successfully");
-		
-//		logger.info("Events test completed successfully");
 	}
 
+	
+	
 	@AfterClass
 	public void tearDown() {
 		logger.info("Test suite completed - performing final cleanup");
@@ -108,5 +107,4 @@ public class BookMyShowTest extends DriverSetup {
 
 		logger.info("Test execution completed");
 	}
-
 }
