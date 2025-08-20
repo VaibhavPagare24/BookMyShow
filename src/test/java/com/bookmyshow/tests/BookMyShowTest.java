@@ -1,6 +1,7 @@
 package com.bookmyshow.tests;
 
 import com.bookmyshow.base.DriverSetup;
+import com.bookmyshow.pages.EventsPage;
 import com.bookmyshow.pages.HomePage;
 import com.bookmyshow.pages.MoviesPage;
 import com.bookmyshow.pages.SportsPage;
@@ -23,6 +24,7 @@ public class BookMyShowTest extends DriverSetup {
 	private HomePage home;
 	private MoviesPage movies;
 	private SportsPage sports;
+	private EventsPage events;
 	
 	// Utility instances
 		private BrowserHelpers helper; // Browser window/tab management
@@ -44,6 +46,7 @@ public class BookMyShowTest extends DriverSetup {
 		home  = new HomePage(driver);
 		movies = new MoviesPage(driver);
 		sports = new SportsPage(driver);
+		events = new EventsPage(driver);
 		
 		// Initialize utility instances
 		helper = new BrowserHelpers(driver);
@@ -55,19 +58,45 @@ public class BookMyShowTest extends DriverSetup {
 	@Test(priority = 1)
 	public void selectLocation() {
 		home.selectCity();
+		logger.info("Location selection test completed successfully");
 	}
 	
 	@Test(priority = 2)
 	public void getSportEvents() {
 		sports.clickSportsTab();
 		sports.extractDetails();
+		logger.info("Sports events test completed successfully");
 	}
 	
 	@Test(priority = 3)
 	public void movieLanguages() {
+		logger.info("Movie languages");
 		movies.clickMoviesTab();
 		movies.getLanguages();
+		logger.info("Movie languages test completed successfully");
 	}
 	
+	
+	@Test(priority = 4)
+	public void getEvents() {
+		events.clickEventTab();
+		events.selectWeekend();
+		events.selectPriceRance();
+		events.extractDetails();
+		logger.info("Events test completed successfully");
+	}
+	
+	
+	@AfterClass
+	public void tearDown() {
+		logger.info("Test suite completed - performing final cleanup");
+		
+		if (driver != null) {
+			driver.quit();
+			logger.info("WebDriver closed successfully");
+		}
+		
+		logger.info("Test execution completed");
+	}
 	
 }
