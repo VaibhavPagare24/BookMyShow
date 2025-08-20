@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-13T14:24:05 IST" name="BookMyShowSuite" finished-at="2025-08-13T14:24:29 IST" duration-ms="24518">
+  <suite started-at="2025-08-20T14:33:35 IST" name="Default suite" finished-at="2025-08-20T14:34:22 IST" duration-ms="46930">
     <groups>
     </groups>
-    <test started-at="2025-08-13T14:24:05 IST" name="BookMyShowTest" finished-at="2025-08-13T14:24:29 IST" duration-ms="24518">
+    <test started-at="2025-08-20T14:33:35 IST" name="Default test" finished-at="2025-08-20T14:34:22 IST" duration-ms="46930">
       <class name="com.bookmyshow.tests.BookMyShowTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bookmyshow.tests.BookMyShowTest@47a86fbb]" started-at="2025-08-13T14:24:05 IST" name="setUp" finished-at="2025-08-13T14:24:24 IST" duration-ms="18773" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T14:33:35 IST" name="setUp" finished-at="2025-08-20T14:34:03 IST" duration-ms="28582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="selectLocation()[pri:1, instance:com.bookmyshow.tests.BookMyShowTest@47a86fbb]" started-at="2025-08-13T14:24:24 IST" name="selectLocation" finished-at="2025-08-13T14:24:24 IST" duration-ms="411" status="PASS">
+        <test-method signature="selectLocation()[pri:1, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T14:34:04 IST" name="selectLocation" finished-at="2025-08-20T14:34:04 IST" duration-ms="745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLocation -->
-        <test-method signature="getSportEvents()[pri:2, instance:com.bookmyshow.tests.BookMyShowTest@47a86fbb]" started-at="2025-08-13T14:24:24 IST" name="getSportEvents" finished-at="2025-08-13T14:24:28 IST" duration-ms="3182" status="PASS">
+        <test-method signature="getSportEvents()[pri:2, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T14:34:04 IST" name="getSportEvents" finished-at="2025-08-20T14:34:08 IST" duration-ms="3818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSportEvents -->
-        <test-method signature="movieLanguages()[pri:3, instance:com.bookmyshow.tests.BookMyShowTest@47a86fbb]" started-at="2025-08-13T14:24:28 IST" name="movieLanguages" finished-at="2025-08-13T14:24:29 IST" duration-ms="868" status="PASS">
+        <test-method signature="movieLanguages()[pri:3, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T14:34:08 IST" name="movieLanguages" finished-at="2025-08-20T14:34:09 IST" duration-ms="829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- movieLanguages -->
+        <test-method signature="getEvents()[pri:4, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T14:34:09 IST" name="getEvents" finished-at="2025-08-20T14:34:13 IST" duration-ms="3823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEvents -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T14:34:13 IST" name="tearDown" finished-at="2025-08-20T14:34:22 IST" duration-ms="9025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.bookmyshow.tests.BookMyShowTest -->
-    </test> <!-- BookMyShowTest -->
-  </suite> <!-- BookMyShowSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
