@@ -402,3 +402,70 @@ Session ID: a3973893c9a5bb8518a203905842eb66
 2025-08-20 14:34:13 INFO  com.bookmyshow.tests.BookMyShowTest - Test suite completed - performing final cleanup
 2025-08-20 14:34:22 INFO  com.bookmyshow.tests.BookMyShowTest - WebDriver closed successfully
 2025-08-20 14:34:22 INFO  com.bookmyshow.tests.BookMyShowTest - Test execution completed
+<<<<<<< HEAD
+2025-08-20 15:36:45 INFO  com.bookmyshow.tests.BookMyShowTest - Test setup started
+2025-08-20 15:36:45 INFO  com.bookmyshow.utils.ConfigReader - Configuration properties loaded successfully
+2025-08-20 15:36:45 INFO  com.bookmyshow.base.DriverSetup - Initializing WebDriver for browser: chrome
+2025-08-20 15:36:51 INFO  com.bookmyshow.base.DriverSetup - WebDriver initialized successfully
+2025-08-20 15:36:51 INFO  com.bookmyshow.base.DriverSetup - Navigating to application URL: https://in.bookmyshow.com
+2025-08-20 15:36:55 INFO  com.bookmyshow.base.DriverSetup - Successfully navigated to application
+2025-08-20 15:36:55 INFO  com.bookmyshow.tests.BookMyShowTest - Test setup completed
+2025-08-20 15:36:56 INFO  com.bookmyshow.tests.BookMyShowTest - Search keyword from Excel: Coimbatore
+2025-08-20 15:36:57 INFO  com.bookmyshow.tests.BookMyShowTest - Location selection test completed successfully
+2025-08-20 15:36:59 INFO  com.bookmyshow.tests.BookMyShowTest - Sports events test completed successfully
+2025-08-20 15:36:59 INFO  com.bookmyshow.tests.BookMyShowTest - Movie languages
+2025-08-20 15:37:00 INFO  com.bookmyshow.tests.BookMyShowTest - Movie languages test completed successfully
+2025-08-20 15:37:02 INFO  com.bookmyshow.tests.BookMyShowTest - Events test completed successfully
+2025-08-20 15:37:02 INFO  com.bookmyshow.tests.BookMyShowTest - Test suite completed - performing final cleanup
+2025-08-20 15:37:09 INFO  com.bookmyshow.tests.BookMyShowTest - WebDriver closed successfully
+2025-08-20 15:37:09 INFO  com.bookmyshow.tests.BookMyShowTest - Test execution completed
+2025-08-20 15:44:05 INFO  com.bookmyshow.tests.BookMyShowTest - Test setup started
+2025-08-20 15:44:05 INFO  com.bookmyshow.utils.ConfigReader - Configuration properties loaded successfully
+2025-08-20 15:44:05 INFO  com.bookmyshow.base.DriverSetup - Initializing WebDriver for browser: chrome
+2025-08-20 15:44:10 INFO  com.bookmyshow.base.DriverSetup - WebDriver initialized successfully
+2025-08-20 15:44:10 INFO  com.bookmyshow.base.DriverSetup - Navigating to application URL: https://in.bookmyshow.com
+2025-08-20 15:44:15 INFO  com.bookmyshow.base.DriverSetup - Successfully navigated to application
+2025-08-20 15:44:15 INFO  com.bookmyshow.tests.BookMyShowTest - Test setup completed
+2025-08-20 15:44:15 INFO  com.bookmyshow.tests.BookMyShowTest - Search keyword from Excel: Coimbatore
+2025-08-20 15:44:16 INFO  com.bookmyshow.tests.BookMyShowTest - Location selection test completed successfully
+2025-08-20 15:44:18 INFO  com.bookmyshow.tests.BookMyShowTest - Sports events test completed successfully
+2025-08-20 15:44:18 INFO  com.bookmyshow.tests.BookMyShowTest - Movie languages
+2025-08-20 15:44:19 INFO  com.bookmyshow.tests.BookMyShowTest - Movie languages test completed successfully
+2025-08-20 15:44:21 INFO  com.bookmyshow.tests.BookMyShowTest - Events test completed successfully
+2025-08-20 15:44:21 INFO  com.bookmyshow.tests.BookMyShowTest - Test suite completed - performing final cleanup
+2025-08-20 15:44:28 INFO  com.bookmyshow.tests.BookMyShowTest - WebDriver closed successfully
+2025-08-20 15:44:28 INFO  com.bookmyshow.tests.BookMyShowTest - Test execution completed
+2025-08-20 15:44:55 INFO  com.bookmyshow.tests.BookMyShowTest - Test setup started
+2025-08-20 15:44:55 INFO  com.bookmyshow.utils.ConfigReader - Configuration properties loaded successfully
+2025-08-20 15:44:55 INFO  com.bookmyshow.base.DriverSetup - Initializing WebDriver for browser: chrome
+2025-08-20 15:45:00 INFO  com.bookmyshow.base.DriverSetup - WebDriver initialized successfully
+2025-08-20 15:45:00 INFO  com.bookmyshow.base.DriverSetup - Navigating to application URL: https://in.bookmyshow.com
+2025-08-20 15:45:06 INFO  com.bookmyshow.base.DriverSetup - Successfully navigated to application
+2025-08-20 15:45:06 INFO  com.bookmyshow.tests.BookMyShowTest - Test setup completed
+2025-08-20 15:45:06 INFO  com.bookmyshow.tests.BookMyShowTest - Search keyword from Excel: Coimbatore
+2025-08-20 15:45:07 INFO  com.bookmyshow.tests.BookMyShowTest - Location selection test completed successfully
+2025-08-20 15:45:09 INFO  com.bookmyshow.tests.BookMyShowTest - Sports events test completed successfully
+2025-08-20 15:45:09 INFO  com.bookmyshow.tests.BookMyShowTest - Movie languages
+2025-08-20 15:45:10 INFO  com.bookmyshow.tests.BookMyShowTest - Movie languages test completed successfully
+2025-08-20 15:45:12 INFO  com.bookmyshow.tests.BookMyShowTest - Events test completed successfully
+2025-08-20 15:45:12 INFO  com.bookmyshow.tests.BookMyShowTest - Test suite completed - performing final cleanup
+2025-08-20 15:45:17 INFO  com.bookmyshow.tests.BookMyShowTest - WebDriver closed successfully
+2025-08-20 15:45:17 INFO  com.bookmyshow.tests.BookMyShowTest - Test execution completed
+=======
+>>>>>>> origin/main
+2025-08-20 17:44:59 INFO  com.bookmyshow.tests.BookMyShowTest - Test setup started
+2025-08-20 17:44:59 INFO  com.bookmyshow.utils.ConfigReader - Configuration properties loaded successfully
+2025-08-20 17:44:59 INFO  com.bookmyshow.base.DriverSetup - Initializing WebDriver for browser: chrome
+2025-08-20 17:45:08 INFO  com.bookmyshow.base.DriverSetup - WebDriver initialized successfully
+2025-08-20 17:45:08 INFO  com.bookmyshow.base.DriverSetup - Navigating to application URL: https://in.bookmyshow.com
+2025-08-20 17:45:15 INFO  com.bookmyshow.base.DriverSetup - Successfully navigated to application
+2025-08-20 17:45:15 INFO  com.bookmyshow.tests.BookMyShowTest - Test setup completed
+2025-08-20 17:45:17 INFO  com.bookmyshow.tests.BookMyShowTest - Search keyword from Excel: Coimbatore
+2025-08-20 17:45:18 INFO  com.bookmyshow.tests.BookMyShowTest - Location selection test completed successfully
+2025-08-20 17:45:23 INFO  com.bookmyshow.tests.BookMyShowTest - Sports events test completed successfully
+2025-08-20 17:45:23 INFO  com.bookmyshow.tests.BookMyShowTest - Movie languages
+2025-08-20 17:45:24 INFO  com.bookmyshow.tests.BookMyShowTest - Movie languages test completed successfully
+2025-08-20 17:45:31 INFO  com.bookmyshow.tests.BookMyShowTest - Events test completed successfully
+2025-08-20 17:45:31 INFO  com.bookmyshow.tests.BookMyShowTest - Test suite completed - performing final cleanup
+2025-08-20 17:45:39 INFO  com.bookmyshow.tests.BookMyShowTest - WebDriver closed successfully
+2025-08-20 17:45:39 INFO  com.bookmyshow.tests.BookMyShowTest - Test execution completed

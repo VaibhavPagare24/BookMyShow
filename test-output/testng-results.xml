@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-20T14:33:35 IST" name="Default suite" finished-at="2025-08-20T14:34:22 IST" duration-ms="46930">
+  <suite started-at="2025-08-20T17:44:58 IST" name="Default suite" finished-at="2025-08-20T17:45:39 IST" duration-ms="40137">
     <groups>
     </groups>
-    <test started-at="2025-08-20T14:33:35 IST" name="Default test" finished-at="2025-08-20T14:34:22 IST" duration-ms="46930">
+    <test started-at="2025-08-20T17:44:58 IST" name="Default test" finished-at="2025-08-20T17:45:39 IST" duration-ms="40137">
       <class name="com.bookmyshow.tests.BookMyShowTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T14:33:35 IST" name="setUp" finished-at="2025-08-20T14:34:03 IST" duration-ms="28582" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T17:44:59 IST" name="setUp" finished-at="2025-08-20T17:45:15 IST" duration-ms="16411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="selectLocation()[pri:1, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T14:34:04 IST" name="selectLocation" finished-at="2025-08-20T14:34:04 IST" duration-ms="745" status="PASS">
+        <test-method signature="selectLocation()[pri:1, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T17:45:15 IST" name="selectLocation" finished-at="2025-08-20T17:45:18 IST" duration-ms="2713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLocation -->
-        <test-method signature="getSportEvents()[pri:2, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T14:34:04 IST" name="getSportEvents" finished-at="2025-08-20T14:34:08 IST" duration-ms="3818" status="PASS">
+        <test-method signature="getSportEvents()[pri:2, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T17:45:18 IST" name="getSportEvents" finished-at="2025-08-20T17:45:23 IST" duration-ms="4941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSportEvents -->
-        <test-method signature="movieLanguages()[pri:3, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T14:34:08 IST" name="movieLanguages" finished-at="2025-08-20T14:34:09 IST" duration-ms="829" status="PASS">
+        <test-method signature="movieLanguages()[pri:3, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T17:45:23 IST" name="movieLanguages" finished-at="2025-08-20T17:45:24 IST" duration-ms="1207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- movieLanguages -->
-        <test-method signature="getEvents()[pri:4, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T14:34:09 IST" name="getEvents" finished-at="2025-08-20T14:34:13 IST" duration-ms="3823" status="PASS">
+        <test-method signature="getEvents()[pri:4, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T17:45:24 IST" name="getEvents" finished-at="2025-08-20T17:45:31 IST" duration-ms="6885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEvents -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T14:34:13 IST" name="tearDown" finished-at="2025-08-20T14:34:22 IST" duration-ms="9025" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bookmyshow.tests.BookMyShowTest@3e14c16d]" started-at="2025-08-20T17:45:31 IST" name="tearDown" finished-at="2025-08-20T17:45:39 IST" duration-ms="7853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

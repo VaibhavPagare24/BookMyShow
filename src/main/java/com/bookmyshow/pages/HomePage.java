@@ -31,7 +31,7 @@ public class HomePage {
 	private WebElement citySearchBox;
 
 	// Method to select city
-		public void selectCity() {
+		public void selectCity(String city) {
 			try {
 				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	
@@ -45,7 +45,7 @@ public class HomePage {
 	
 				// Wait for the search input and perform city selection
 				wait.until(ExpectedConditions.visibilityOf(citySearchBox));
-				citySearchBox.sendKeys("Coimbatore");
+				citySearchBox.sendKeys(city);
 				citySearchBox.sendKeys(Keys.ENTER);
 			} catch (Exception e) {
 				System.out.println("Login popup not found.");
