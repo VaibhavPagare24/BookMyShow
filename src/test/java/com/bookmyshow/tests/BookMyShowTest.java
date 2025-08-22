@@ -82,6 +82,8 @@ public class BookMyShowTest extends DriverSetup {
 		movies.clickMoviesTab();
 		movies.getLanguages();
 		logger.info("Movie languages test completed successfully");
+		
+		
 	}
 
 	
@@ -92,6 +94,8 @@ public class BookMyShowTest extends DriverSetup {
 		events.selectPriceRance();
 		events.extractDetails();
 		logger.info("Events test completed successfully");
+		
+//		logger.info("Events test completed successfully");
 	}
 
 	
