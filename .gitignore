@@ -1,0 +1,75 @@
+# Maven
+target/
+*.war
+*.ear
+*.jar
+
+# TestNG
+test-output/
+
+# Logs
+logs/
+*.log
+
+# ExtentReports - Generated reports
+**/ExtentReports/
+ExtentReport_*.html
+
+# Screenshots - Generated during test execution
+**/screenshots/
+screenshot*.png
+
+# Temporary Excel files
+~$*.xlsx
+~$*.xls
+
+# IDE Files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.sublime-*
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Maven
+dependency-reduced-pom.xml
+.mvn/
+mvnw
+mvnw.cmd
+
+# WebDriver binaries (if manually downloaded)
+drivers/
+chromedriver*
+geckodriver*
+edgedriver*
+
+# Test Data - Backup files
+*.bak
+*.tmp
+
+# Reports and output files that are generated
+emailable-report.html
+index.html
+testng-results.xml
+testng-failed.xml
+junitreports/
+
+# Surefire reports
+surefire-reports/ 
