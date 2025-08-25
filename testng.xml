@@ -6,6 +6,7 @@
     <listeners>
         <listener class-name="com.bookmyshow.listeners.ExtentReportListener"/>
         <listener class-name="com.bookmyshow.listeners.ScreenshotListener"/>
+        <listener class-name="com.bookmyshow.listeners.RetryListener"/>
     </listeners>
 
     <test name="BookMyShowTest">

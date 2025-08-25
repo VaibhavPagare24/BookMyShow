@@ -37,12 +37,6 @@ public class HomePage {
 	
 				// Wait for popup and check if it is displayed
 				wait.until(ExpectedConditions.visibilityOf(locationPopupClose));
-				if (locationPopupClose.isDisplayed()) {
-					System.out.println("Displayed");
-				} else {
-					System.out.println("Not displayed");
-				}
-	
 				// Wait for the search input and perform city selection
 				wait.until(ExpectedConditions.visibilityOf(citySearchBox));
 				citySearchBox.sendKeys(city);
@@ -51,5 +45,4 @@ public class HomePage {
 				System.out.println("Login popup not found.");
 			}
 		}
-
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Cucumber Suite" verbose="1" parallel="false">
+	<listeners>
+		<listener class-name="com.bookmyshow.listeners.RetryListener"/>
+	</listeners>
+	<test name="All Features">
+		<classes>
+			<class name="com.bookmyshow.runners.TestRunner"/>
+		</classes>
+	</test>
+	<test name="Smoke">
+		<classes>
+			<class name="com.bookmyshow.runners.SmokeTestRunner"/>
+		</classes>
+	</test>
+	<test name="Regression">
+		<classes>
+			<class name="com.bookmyshow.runners.RegressionTestRunner"/>
+		</classes>
+	</test>
+	<test name="Login">
+		<classes>
+			<class name="com.bookmyshow.runners.LoginTestRunner"/>
+		</classes>
+	</test>
+</suite> 
