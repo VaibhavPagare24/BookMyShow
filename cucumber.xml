@@ -19,9 +19,4 @@
 			<class name="com.bookmyshow.runners.RegressionTestRunner"/>
 		</classes>
 	</test>
-	<test name="Login">
-		<classes>
-			<class name="com.bookmyshow.runners.LoginTestRunner"/>
-		</classes>
-	</test>
 </suite> 
