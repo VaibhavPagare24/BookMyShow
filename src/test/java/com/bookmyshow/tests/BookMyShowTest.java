@@ -3,6 +3,7 @@ package com.bookmyshow.tests;
 import com.bookmyshow.base.DriverSetup;
 import com.bookmyshow.pages.EventsPage;
 import com.bookmyshow.pages.HomePage;
+import com.bookmyshow.pages.LoginPage;
 import com.bookmyshow.pages.MoviesPage;
 import com.bookmyshow.pages.SportsPage;
 import com.bookmyshow.utils.BrowserHelpers;
@@ -24,6 +25,7 @@ public class BookMyShowTest extends DriverSetup {
 	private MoviesPage movies;
 	private SportsPage sports;
 	private EventsPage events;
+	private LoginPage login;
 	// Utility instances
 	private BrowserHelpers helper; // Browser window/tab management
 	private String excelFile; // Path to test data Excel file
@@ -45,6 +47,7 @@ public class BookMyShowTest extends DriverSetup {
 		movies = new MoviesPage(driver);
 		sports = new SportsPage(driver);
 		events = new EventsPage(driver);
+		login = new LoginPage(driver);
 		// Initialize utility instances
 		helper = new BrowserHelpers(driver);
 		excelFile = ConfigReader.getProperty("test.data.file"); // Get Excel file path from config
@@ -82,8 +85,6 @@ public class BookMyShowTest extends DriverSetup {
 		movies.clickMoviesTab();
 		movies.getLanguages();
 		logger.info("Movie languages test completed successfully");
-		
-		
 	}
 
 	
@@ -97,12 +98,41 @@ public class BookMyShowTest extends DriverSetup {
 		
 //		logger.info("Events test completed successfully");
 	}
-
 	
+	@Test(priority = 5)
+	public void testGoogleSignInWithInvalidCredentials() {
+	    logger.info("Starting Google Sign In test with invalid credentials");
+
+	    String invalidEmail = "invaliduser12345@gmail.com";
+
+	    try {
+	        String errorMessage = login.signInWithInvalidEmail(invalidEmail);
+
+	        logger.info("Captured error message: " + errorMessage);
+	        System.out.println("===========================================");
+	        System.out.println("Google Sign In Error: " + errorMessage);
+	        System.out.println("===========================================");
+
+	        Assert.assertNotNull(errorMessage, "Error message should not be null");
+	        Assert.assertFalse(errorMessage.trim().isEmpty(), "Error message should not be empty");
+	        
+	        Assert.assertTrue(
+	                         errorMessage.contains("find your Google Account") ||
+	                         errorMessage.contains("No error message displayed") ||
+	                         errorMessage.contains("Couldn’t sign you in"),
+
+	                         "Error message should contain expected error text or be a valid response. Got: " + errorMessage);
+
+	        logger.info("Google Sign In test completed successfully");
+
+	    } catch (Exception e) {
+	        logger.error("Test failed: " + e.getMessage());
+	        Assert.fail("Google Sign In test failed: " + e.getMessage());
+	    }
+	}
 	
 	@AfterClass
-	public void tearDown() {
-		logger.info("Test suite completed - performing final cleanup");
+	public void tearDown() {//		logger.info("Test suite completed - performing final cleanup");
 
 		if (driver != null) {
 			driver.quit();

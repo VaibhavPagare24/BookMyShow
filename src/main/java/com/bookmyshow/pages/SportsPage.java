@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -23,7 +24,7 @@ public class SportsPage {
 	@FindBy(linkText = "Sports")
 	private WebElement sportsTab;
 
-	@FindBy(xpath = "//*[@id='super-container']/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/div[3]/div[2]/div/div")
+	@FindBy(xpath = "//div[contains(text(),'This Weekend')]")
 	private WebElement weekendFilter;
 
 	@FindBy(css = "a.ctsexn.uPavs")
@@ -45,7 +46,7 @@ public class SportsPage {
 	// --- Click Sports Tab and apply weekend filter ---
 	public void clickSportsTab() {
 		wait.until(ExpectedConditions.visibilityOf(sportsTab)).click();
-		wait.until(ExpectedConditions.elementToBeClickable(weekendFilter)).click();
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", weekendFilter);
 	}
 
 	// --- Extract event details ---

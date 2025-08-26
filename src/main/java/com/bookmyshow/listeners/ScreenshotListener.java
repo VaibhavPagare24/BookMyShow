@@ -33,7 +33,7 @@ public class ScreenshotListener implements ITestListener {
 
 					if (screenshotPath != null) {
 						// Add screenshot to ExtentReports
-						ExtentReportListener.addScreenshot( ConfigReader.getExtentReportPathScreenshot()+ screenshotPath);
+						//ExtentReportListener.addScreenshot( ConfigReader.getExtentReportPathScreenshot()+ screenshotPath);
 
 						// Log screenshot path
 						logger.info("Screenshot captured for failed test: {}", screenshotPath);
@@ -77,7 +77,7 @@ public class ScreenshotListener implements ITestListener {
 
 					if (screenshotPath != null) {
 						// Add screenshot to ExtentReports
-						ExtentReportListener.addScreenshot( ConfigReader.getExtentReportPathScreenshot() +screenshotPath);
+						//ExtentReportListener.addScreenshot( ConfigReader.getExtentReportPathScreenshot() +screenshotPath);
 
 						// Log screenshot path
 						logger.info("Screenshot captured for skipped test: {}", screenshotPath);
@@ -115,7 +115,7 @@ public class ScreenshotListener implements ITestListener {
 
 						if (screenshotPath != null) {
 							// Add screenshot to ExtentReports
-							ExtentReportListener.addScreenshot(ConfigReader.getExtentReportPathScreenshot()+screenshotPath);
+							//ExtentReportListener.addScreenshot(ConfigReader.getExtentReportPathScreenshot()+screenshotPath);
 
 							// Log screenshot path
 							logger.info("Screenshot captured for passed test: {}", screenshotPath);
