@@ -73,3 +73,7 @@ junitreports/
 
 # Surefire reports
 surefire-reports/ 
+
+#allure reports
+allure-report/
+allure-results/ 
