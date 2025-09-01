@@ -2,7 +2,10 @@ package com.bookmyshow.runners;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
+import org.testng.annotations.Listeners;
+import com.bookmyshow.listeners.RetryListener;
 
+@Listeners(RetryListener.class)
 @CucumberOptions(
 		features = "src/test/resources/features",
 		glue = {"com.bookmyshow.stepDefinitions", "com.bookmyshow.hooks"},
