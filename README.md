@@ -7,12 +7,20 @@ BookMyShow Test Automation Framework
 A robust, scalable, and maintainable test automation framework for the BookMyShow web application.
 
 **Brief description:**
+<<<<<<< HEAD
+- Automates end-to-end user journeys such as login, event/movie search, and validation.
+=======
 - Automates end-to-end user journeys such as login, event/movie search, booking, and validation.
+>>>>>>> origin/main
 - Covers both positive and negative scenarios.
 - Ensures cross-browser compatibility and data-driven testing.
 
 **What the framework tests:**
+<<<<<<< HEAD
+- Home page, login, event/movie search, and validation flows.
+=======
 - Home page, login, event/movie search, booking, cart, and validation flows.
+>>>>>>> origin/main
 
 ---
 
@@ -200,6 +208,11 @@ flowchart TD
   - Advanced reporting (Allure, Extent)
   - Java OOP, design patterns, exception handling
   - Integration with CI/CD (future roadmap)
+
+---
+
+## GitHub Link
+  - https://github.com/VaibhavPagare24/BookMyShow
 
 ---
 
